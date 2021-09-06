@@ -1,0 +1,321 @@
+/*
+color: #eb7734
+#062F4fink
+#813772 posy
+#882601 embers
+#c51c05
+font-family: 'Roboto Slab', serif;
+*/
+
+.top{
+    background:black;
+    width: 100%;
+    height: 110px;
+}
+
+.logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    padding-top:3px;
+    padding-left: 5px;
+}
+
+.main-name{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+#tool-bar{
+    background: rgb(31, 30, 30);
+    
+}
+
+.dropdown-button{
+    color: black;
+    background: rgb(213, 213, 213);
+    border-radius: 20px;
+    border-color: black;
+}
+.main-bar{
+    padding-left: 20px;
+}
+
+.log{
+    width: 100px;
+    border-radius:20px ;
+    background: rgb(213, 213, 213);
+    border-color: black;
+    margin-top: 5px;
+}
+.dropdown-item{
+    color: white;
+}
+.search-button{
+    margin-top: 2px;
+    border-radius:20px ;
+    background-color: rgb(213, 213, 213);
+}
+.search-button{
+    border-radius:20px ;
+    color: black;
+    border-color: white;
+}
+
+
+.log:hover , .search-button:hover , .dropdown-button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.dropdown-item:hover{
+    border-radius: 10px;
+}
+.dropdown-menu{
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 25px;
+    padding: 30px;
+}
+
+
+/* discount items*/
+.discount{
+    background-color:black ;
+    position: relative;
+    width: 100%;
+    
+}
+.discount-topic{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 34%;
+}
+
+.box{
+  height: 400px;
+  padding: 10px 15px;
+  background-color: white;
+  margin: 25px;
+  border-radius: 25px;
+}
+
+.card-title{
+  color: black;
+}
+.spec{
+    display: none;
+    margin-top: 35px;
+}
+.box:hover{
+    box-shadow: 0 0 11px black;
+    display: block;
+}
+.box:hover .spec{
+    display: block;
+    position: absolute;
+    
+}
+
+.box:hover .card-body{
+    box-shadow: 0 0 11px black;
+    display: none;
+    visibility: hidden;
+    position: absolute;
+}
+.starting-price{
+    text-decoration: line-through 2px;
+}
+.feature{
+    margin-bottom: 5%;
+    text-align: center;
+    float: left;
+}
+.more{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 25px;
+    background-color: rgb(174, 166, 166);
+}
+.more:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    background-color: white;
+}
+
+.discount img{
+    border-radius: 25px;
+}
+
+/* categories*/
+
+.categories{
+    background-color: black;
+    padding: 25px;
+}
+.circle{
+    background-color: white;
+    height: 230px;
+    width: 230px;
+    color: black;
+    font-size: 18px;
+    padding: 25% 5%;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25%;
+    margin-left: 22%;
+}
+  
+.circle:hover{
+    background-color:rgb(144, 153, 153) ;
+}
+.text{
+    text-decoration: none;
+}
+.horizontal-line{
+    background-color: white;
+    width: 60%;
+
+    margin-left: 22%;
+}
+
+/*just for u */
+.justforu-topic{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40%;
+}
+.justforu{
+    background-color:black ;
+    position: relative;
+    width: 100%;
+    
+}
+
+/*payment method*/
+.payment{
+    height: 250px;
+}
+.payment-topic{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.payment-pic{
+    height: 50px;
+    width: 150px;
+}
+.button-container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.payment-button{
+    margin-left: 150px;
+    float: left;
+    width: 160px;
+    height: 60px;
+}
+
+/* contact */
+.contact{
+    background-color: black;
+    padding: 20px;
+    position: relative;
+}
+
+.contact-us{
+    width: 50%;
+}
+.link{
+    padding: 25px;
+    text-decoration: none;
+    color: rgb(158, 153, 153);
+}
+
+.link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.social-media{
+    position: relative;
+    float: right;
+}
+.barcode{
+    float: right;
+    margin-top: -250px;
+    margin-right: 15%;
+    color: white;
+
+}
+.logo-barcode{
+    margin-left: 50px;
+}
+
+.icons{
+    float: right;
+    color: white;
+}
+.fab{
+    padding-right: 150px;
+    color: white;
+    font-size: 65px;
+}
+
+.text-barcode{
+    text-decoration: none;
+}
+.facebook:hover{
+    color: #3b5998;
+    transform: translate(10px);
+}
+.instagram:hover{
+    color: #8a3ab9;
+    transform: translate(10px);
+}
+.google-play:hover{
+    color: #3bccff;
+    transform: translate(10px);
+}
+
+/* footer*/
+.footer{
+    padding: 25px;
+}
+
+.experience{
+    float: left;
+    width: 40%;
+}
+.text-footer{
+    margin-top: 30px;
+}
+
+.top-categories{
+    float: right;
+    margin-right: 15%;
+    width: 30%;
+}
+.mobiles-header{
+    margin-top: 29px;
+}
+
+.link-mobiles{
+    text-decoration: none;
+    color: black;
+}
+
+.link-mobiles:hover{
+    color: black;
+    text-decoration: underline;
+}
