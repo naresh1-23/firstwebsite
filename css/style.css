@@ -6,6 +6,12 @@ color: #eb7734
 #c51c05
 font-family: 'Roboto Slab', serif;
 */
+html,body{
+    height: 100%;
+}
+body{
+    color:#212226;
+}
 
 .top{
     background:black;
@@ -154,14 +160,17 @@ font-family: 'Roboto Slab', serif;
 /* categories*/
 
 .categories{
-    background-color: black;
+    background-color: white;
     padding: 25px;
 }
+.categories-topic{
+    color: black;
+}
 .circle{
-    background-color: white;
+    background-color: black;
     height: 230px;
     width: 230px;
-    color: black;
+    color: white;
     font-size: 18px;
     padding: 25% 5%;
     border-radius: 100%;
@@ -173,7 +182,7 @@ font-family: 'Roboto Slab', serif;
 }
   
 .circle:hover{
-    background-color:rgb(144, 153, 153) ;
+    background-color:rgb(120, 124, 124) ;
 }
 .text{
     text-decoration: none;
